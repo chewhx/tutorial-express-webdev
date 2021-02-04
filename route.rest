@@ -1,0 +1,26 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/601bb0b14c70b4995bcc5f62
+
+### 
+
+POST http://localhost:3000/subscribers/
+Content-Type: application/json
+
+{
+  "name": "Amazing Person 4",
+  "subscribedToChannel": "Web Dev Simplified 4"
+}
+
+### 
+
+DELETE http://localhost:3000/subscribers/601bb0b14c70b4995bcc5f62
+
+###
+
+PATCH http://localhost:3000/subscribers/601baf164c70b4995bcc5f61
+Content-Type: application/json
+
+{"name":"Cancer"}
